@@ -13,4 +13,6 @@ function test(n){
     }
 }
 
-test(5)
+
+ test(15);
+ console.log(test())
