@@ -1,8 +1,10 @@
 arr = [1, 2, 3, 4, 5]
-function sumOfArray(arr){
-    let sum = 0;
+function doubleOfArray(arr){
+    let newArray = [];
     for(var i = 0; i < arr.length; i++){
-        sum += arr[i]
+        newArray.push(arr[i]*2)
     }
-    console.log(sum)
+    console.log(newArray);
 }
+doubleOfArray(arr)
+
