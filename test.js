@@ -1,8 +1,16 @@
-var a = 5
-var b = 7
+function test(n){
+    function a(){
+        return n % 3 === 0
+    }
+    function b(){
+        return n % 5 === 0
+    }
 
-temp = a;
-a = b;
-b = temp;
+    if(a() && b()){
+        console.log(n + 'is divisible by 3 and 5')
+    }else{
+        console.log('not valid number')
+    }
+}
 
-console.log(a,b)
+test(5)
