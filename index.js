@@ -35,3 +35,13 @@ function person(name, email){
 }
 var p = person('Nayem', 'nayem@procoder.org')
 console.log(p)
+
+// swap 2 variables for sobuj vhai task
+var a = 5
+var b = 7
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(a,b)

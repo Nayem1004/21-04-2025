@@ -1,9 +1,8 @@
-function person(name, email){
-    return{
-        name: name,
-        email:  email 
-        
-    }
-}
-var p = person('Nayem', 'nayem@procoder.org')
-console.log(p)
+var a = 5
+var b = 7
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(a,b)
